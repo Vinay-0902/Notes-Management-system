@@ -1,0 +1,74 @@
+body{
+  
+   background-color: black;
+  
+}
+
+h2{
+   
+    color: goldenrod;
+    font-size: 80px;
+    font-family: "PT Serif", serif;
+    margin-bottom: 0px;
+
+}
+p{
+    color: goldenrod;
+    font-size: 40px;
+    font-family: "PT Serif", serif;
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+}
+.out{
+    width: 97vw;
+  
+    padding-top: 180px;
+}
+.in{
+    text-align: center;
+    
+}
+
+.o{
+    border-radius: 15px;
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    /* font-style: normal; */
+
+}
+.btn:hover .o{
+    background-color: black;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+.t{
+    border-radius: 15px;
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    background-color: goldenrod;
+    border: 2px solid black;
+    color: black;
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    /* font-style: normal; */
+
+}
+.btn2:hover .t{
+    background-color: black;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+.all{
+    display: flex;
+    padding-left: 600px;
+    gap: 40px;
+    margin-top: 0px;
+}

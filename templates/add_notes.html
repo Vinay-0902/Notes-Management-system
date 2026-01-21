@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block body %}
+    <nav>
+       The Notes Management APP
+    </nav>
+    <div class="out1">
+        <div class="in1">
+        <h1>Add Notes</h1>
+    <p>{{msg}}</p>
+    <form action="{{url_for('add_notes', token=token)}}" method="POST"> 
+        <h3>Title</h3>
+        <input type="text" name="title" placeholder="Title"><br>
+        <h3>Content</h3>
+        <textarea name="content" placeholder="Add new content here"></textarea><br>
+        
+
+
+
+        <button class="button1" type="submit">Save</button>
+
+
+    </form>
+    </div>
+    </div>
+
+{% endblock %}
