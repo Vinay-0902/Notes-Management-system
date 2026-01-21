@@ -147,7 +147,7 @@ p{
 
 
     color: goldenrod;
-    border: 3px solid black;
+    
     border-radius: 20px;
     width: 90px;
     height: 40px;
@@ -155,7 +155,7 @@ p{
     font-family: "PT Serif", serif;
     padding-top: -20px;
    
-    background-color: black;
+    background-color: white;
 
 
    
