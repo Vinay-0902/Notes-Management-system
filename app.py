@@ -97,7 +97,7 @@ def register():
 @app.route("/register/verifyotp",methods=["GET","POST"])
 def verifyOTP():
     if 'register_otp_token' not in session:
-        redirect(url_for("register"))
+        return redirect(url_for("register"))
     if request.method=="POST":
         try:
             entered_otp=int(request.form["otp"])
